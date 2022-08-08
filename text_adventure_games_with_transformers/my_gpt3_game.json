@@ -1,0 +1,628 @@
+{
+    "categories": {
+        "1": "apartment"
+    },
+    "rooms": {
+        "1": {
+            "category": "apartment",
+            "setting": "bedroom",
+            "in_objects": [
+                1,
+                2,
+                3
+            ],
+            "description": " The bedroom is small and cramped. It is not very spacious, but instead very organized. The closet is a walk in. The room is very neat and organized, and has a very masculine feel to it.\n",
+            "neighbors": [
+                1,
+                16
+            ]
+        },
+        "2": {
+            "category": "apartment",
+            "setting": "Kitchen",
+            "in_objects": [
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "description": " The kitchen is small but sleek. It has granite counter tops, a stove, and a refrigerator. There is also a small table in the middle with two chairs.\n",
+            "neighbors": [
+                2,
+                13
+            ]
+        },
+        "3": {
+            "category": "apartment",
+            "setting": "Dining room",
+            "in_objects": [
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "description": " The dining room has a rustic feel to it. There is a huge wooden dining table in the center of the room with chairs around it. There is a bright fire place with a rustic fireplace with huge fire place and a mantel. There is a large ornate chandelier hanging from the ceiling.\n",
+            "neighbors": [
+                3,
+                6
+            ]
+        },
+        "4": {
+            "category": "apartment",
+            "setting": "Balcony",
+            "in_objects": [
+                14,
+                15,
+                16
+            ],
+            "description": " The spacious balcony looks out over the city. The railing is made of cool metals, and the view it spectacular. Many nightsthere are people out there having fun. The balcony doors are made of wood, and are generally left open so the weather can air out the room.\n",
+            "neighbors": [
+                4,
+                5
+            ]
+        },
+        "5": {
+            "category": "apartment",
+            "setting": "kitchen",
+            "in_objects": [
+                17,
+                18,
+                19
+            ],
+            "description": " The kitchen is a small, but well-equipped space. There are a few pots on the stove, as well as a mixing bowl on the counter. There is also a loaf of bread freshly baked on the counter.\n",
+            "neighbors": [
+                7,
+                8
+            ]
+        },
+        "6": {
+            "category": "apartment",
+            "setting": "sitting room",
+            "in_objects": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29
+            ],
+            "description": " There's not much to see, just some arm chairs and a coffee table in the middle with some plants and a few decorations.  There's art on the wall from various artists and a few books in the bookcase.\n",
+            "neighbors": [
+                9,
+                10
+            ]
+        },
+        "7": {
+            "category": "apartment",
+            "setting": "Sleeping quarters",
+            "in_objects": [
+                30,
+                31,
+                32,
+                33
+            ],
+            "description": " It's a small, but comfortable bedroom. There's a small bed against the wall, a desk and chair, and a closet. There's also a window covered by a curtain.\n",
+            "neighbors": [
+                11,
+                12
+            ]
+        },
+        "8": {
+            "category": "apartment",
+            "setting": "the entrance",
+            "in_objects": [
+                34,
+                35,
+                36,
+                37
+            ],
+            "description": " The entrance to the apartment is plain and simple. It's a door with a name placard that lists the names of the residents. There is a small gold plaque next to the door that lists the names and their positions within the building. There is a small staircase right next to the door that leads up to the second",
+            "neighbors": [
+                14
+            ]
+        },
+        "9": {
+            "category": "apartment",
+            "setting": "Top floor",
+            "in_objects": [
+                38,
+                39,
+                40
+            ],
+            "description": " A spacious and luxurious top floor penthouse. It has a large bedroom, a Jacuzzi and a sauna. The floor-to-ceiling windows offer a majestic view of the city.\n",
+            "neighbors": [
+                15
+            ]
+        }
+    },
+    "neighbors": {
+        "1": {
+            "destination": "Kitchen",
+            "direction": "East",
+            "room_id": 1
+        },
+        "2": {
+            "destination": "Dining room",
+            "direction": "Up",
+            "room_id": 2
+        },
+        "3": {
+            "destination": "Balcony",
+            "direction": "Outside",
+            "room_id": 3
+        },
+        "4": {
+            "destination": "Kitchen",
+            "direction": "Inside",
+            "room_id": 4
+        },
+        "5": {
+            "destination": "Dining room",
+            "direction": "Down",
+            "room_id": 4
+        },
+        "6": {
+            "destination": "kitchen",
+            "direction": "South",
+            "room_id": 3
+        },
+        "7": {
+            "destination": "Balcony",
+            "direction": "Outside",
+            "room_id": 5
+        },
+        "8": {
+            "destination": "sitting room",
+            "direction": "Up",
+            "room_id": 5
+        },
+        "9": {
+            "destination": "Kitchen",
+            "direction": "East",
+            "room_id": 6
+        },
+        "10": {
+            "destination": "Sleeping quarters",
+            "direction": "Up",
+            "room_id": 6
+        },
+        "11": {
+            "destination": "Balcony",
+            "direction": "Outside",
+            "room_id": 7
+        },
+        "12": {
+            "destination": "Kitchen",
+            "direction": "West",
+            "room_id": 7
+        },
+        "13": {
+            "destination": "the entrance",
+            "direction": "North",
+            "room_id": 2
+        },
+        "14": {
+            "destination": "Top floor",
+            "direction": "Up",
+            "room_id": 8
+        },
+        "15": {
+            "destination": "Penthouse sauna",
+            "direction": "South",
+            "room_id": 9
+        },
+        "16": {
+            "destination": "Laundry Room",
+            "direction": "West",
+            "room_id": 1
+        }
+    },
+    "objects": {
+        "1": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "the bedroom"
+        },
+        "2": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "closet"
+        },
+        "3": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "the room"
+        },
+        "4": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "granite counter tops"
+        },
+        "5": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "stove"
+        },
+        "6": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "refrigerator"
+        },
+        "7": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "small table"
+        },
+        "8": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "two chairs"
+        },
+        "9": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "huge wooden dining table"
+        },
+        "10": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "chairs"
+        },
+        "11": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "bright fire place"
+        },
+        "12": {
+            "is_container": 1.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 1.0,
+            "is_weapon": 0.0,
+            "name": "mantel"
+        },
+        "13": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "large ornate chandelier"
+        },
+        "14": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "balcony"
+        },
+        "15": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "doors"
+        },
+        "16": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "railing"
+        },
+        "17": {
+            "is_container": 1.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "pots"
+        },
+        "18": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "mixing bowl"
+        },
+        "19": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 1.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 1.0,
+            "is_weapon": 0.0,
+            "name": "loaf of bread"
+        },
+        "20": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "arm chairs"
+        },
+        "21": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "coffee table"
+        },
+        "22": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 1.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "plants"
+        },
+        "23": {
+            "is_container": 1.0,
+            "is_drink": 0.0,
+            "is_food": 1.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 1.0,
+            "is_weapon": 0.0,
+            "name": "decorations"
+        },
+        "24": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 1.0,
+            "is_weapon": 0.0,
+            "name": "art"
+        },
+        "25": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 1.0,
+            "name": "books"
+        },
+        "26": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "arm chairs"
+        },
+        "27": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "coffee table"
+        },
+        "28": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 1.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 1.0,
+            "is_weapon": 0.0,
+            "name": "plants"
+        },
+        "29": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 1.0,
+            "is_weapon": 0.0,
+            "name": "decorations"
+        },
+        "30": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "small bed"
+        },
+        "31": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 1.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "a desk and chair"
+        },
+        "32": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 1.0,
+            "is_weapon": 0.0,
+            "name": "a closet"
+        },
+        "33": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "a window covered by a curtain"
+        },
+        "34": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "door"
+        },
+        "35": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "placard"
+        },
+        "36": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "gold plaque"
+        },
+        "37": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "small staircase"
+        },
+        "38": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "large bedroom"
+        },
+        "39": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 1.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "jacuzzi"
+        },
+        "40": {
+            "is_container": 0.0,
+            "is_drink": 0.0,
+            "is_food": 0.0,
+            "is_gettable": 0.0,
+            "is_surface": 0.0,
+            "is_wearable": 0.0,
+            "is_weapon": 0.0,
+            "name": "sauna"
+        }
+    }
+}

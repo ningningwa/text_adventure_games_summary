@@ -1,0 +1,44 @@
+open action castle
+get pole
+get lamp
+out
+pick rose
+south
+catch fish with pole
+north
+north
+up
+get branch
+down
+east
+give fish to troll
+east
+hit guard with branch
+get key
+east
+get candle
+west
+down
+light lamp
+down
+light candle
+expel ghost
+get crown
+up
+up
+up
+unlock door
+up
+give rose to princess
+talk to princess
+ask about ghost
+ask about crown
+ask about tower
+ask about throne
+propose to princess
+out
+down
+east
+east
+sit on throne
+
